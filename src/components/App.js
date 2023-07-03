@@ -7,6 +7,10 @@ import Directors from "./Directors";
 import Movies from "./Movies";
 
 function App() {
+  const [page , setPage] = useState("/")
+
+
+
   return <div>{/*{code here}*/}</div>;
 }
 
