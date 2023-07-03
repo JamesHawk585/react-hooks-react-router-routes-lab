@@ -15,9 +15,6 @@ function App() {
     <div>
       <NavBar onPageChange={setPage}/>
       <Switch>
-        <Route path="/">
-          <Home />
-        </Route>
         <Route path="/Actors">
           <Actors />
         </Route>
@@ -26,6 +23,9 @@ function App() {
         </Route>
         <Route path="/Movies">
           <Movies />
+        </Route>
+        <Route exact path="/">
+          <Home />
         </Route>
         </Switch>
     </div>
